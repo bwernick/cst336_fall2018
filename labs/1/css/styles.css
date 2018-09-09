@@ -1,0 +1,115 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+  background-color: black;
+  color: white;
+  /*background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;*/
+}
+
+h1{
+  font-family: Pacifico, cursive;
+  font-size: 4em;
+  margin-bottom: 0px;
+}
+
+header, main, nav, footer{
+  text-align: center;
+}
+
+nav a{
+  padding: 15px;
+  padding-bottom: 4px;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+  border-bottom: 2px orange solid;
+  font-size: 2em;
+  transition: .9s;
+}
+
+#me, #welcomeText{
+  float:left;
+}
+
+#welcomeText{
+  text-align: left;
+}
+
+footer{
+  clear: left;
+  font-size: 1em;
+  color: whitesmoke;
+}
+
+#home #homenav, #about #aboutnav, #contact #contactnav {
+  border-bottom: 2px orange solid;
+}
+
+table{
+  margin: 0px auto;
+}
+
+td{
+  padding-right: 10px;
+  font-size: 1.3em;
+}
+
+td strong{
+  color: orange;
+}
+
+#table-header{
+  background-color: #351a00;
+}
+
+.table-row{
+  background-color: #753900;
+}
+
+ul{
+  text-align: left;
+  display: inline-block;
+  list-style: none;
+}
+
+.hobby{
+  color: yellow;
+}
+
+#form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*Credit to user Konga Raju on https://stackoverflow.com/questions/114543/how-to-horizontally-center-a-div-in-another-div*/
+}
+
+#content{
+  text-align: center;
+}
+
+#logo{
+  width: 10%;
+  height: 10%;
+  background-color: white;
+}
+
+#mugshot{
+  border-radius: 20px;
+  width: 80%;
+  height: 80%;
+}
+
+
