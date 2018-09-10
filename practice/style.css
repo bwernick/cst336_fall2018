@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", sans-serif;
+  font-size: 48px;
+  color: white;
+    padding-left: 10%;
+  padding-right: 10%;
+}
+
+h2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h3{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+div{
+    padding-left: 10%;
+  padding-right: 10%;
+  background-color: white;
+  margin: 0px;
+}
+
+#logobanner{
+  background-color: white;
+}
+
+#collegebanner{
+  background-color: #002a4e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+    padding-left: 0%;
+  padding-right: 0%;
+  margin: 0;
+}
+
+.item{
+    padding: 5px;
+}
+
+#minor {
+    padding:5px;
+}
+
+tr {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    word-wrap: break-word;
+    vertical-align: text-top;
+}
+
+ul{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+li{
+    padding-bottom: 10px;
+}
