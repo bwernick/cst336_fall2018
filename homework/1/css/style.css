@@ -1,0 +1,113 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 42px;
+  text-align: center;
+  
+  /*---Warning: pointless---*/
+  resize: both;
+  overflow:auto;
+}
+
+.pagetop{
+  background-color: #171b30; 
+  color: white;
+  padding: 4%;
+  margin: 0;
+}
+
+nav{
+  background-color: #171b30; 
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+div nav a{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+nav a:hover{
+  border-bottom: 2px orange solid;
+  font-size: 2em;
+  transition: .9s;
+}
+
+body#home a.hnav, body#java a.jnav, body#c a.cnav, body#python a.pnav, body#swift a.snav {
+  color: gray;
+}
+
+.pagebot{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pagebot p{
+  text-align: center;
+  color: gray;
+}
+
+.src{
+  text-align: center;
+}
+
+.table{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.tablecell{
+  margin: 2%;
+  padding: 2%;
+  border: 2px solid #171b30;
+  border-radius: 15%;
+  text-align: center;
+}
+
+img{
+  width: 50%;
+}
+
+div a{
+  text-decoration: none;
+  color: black;
+}
+
+div a:hover{
+  transform: scale(1.05);
+  transition: .9s;
+}
+
+#text{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.aboutimg{
+  width: 10%;
+  margin: auto;
+  padding: 2%;
+  float: right;
+}
+
+.content{
+  padding-left: 5%;
+}
+
