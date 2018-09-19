@@ -1,1 +1,2 @@
-Hello World
+$firstName = "John";
+echo "<div>$firstName</div>";
