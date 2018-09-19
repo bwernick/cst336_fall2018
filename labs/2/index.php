@@ -8,7 +8,6 @@
         <div id="main">
         <?php
             include 'inc/functions.php';
-            pullSound();
             play();
         ?>
         
