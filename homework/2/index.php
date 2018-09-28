@@ -11,17 +11,6 @@
             //associative array of all dice
             $dice = array("d4" => array("numRolls" => 0, "maxValue" => 4), "d6" => array("numRolls" => 0, "maxValue" => 6), "d8" => array("numRolls" => 0, "maxValue" => 8), 
                           "d10" => array("numRolls" => 0, "maxValue" => 10), "d12" => array("numRolls" => 0, "maxValue" => 12), "d20" => array("numRolls" => 0, "maxValue" => 20));
-        
-            if( isset($_POST['submit'])){
-                    $dice["d4"]["numRolls"] = $_POST["d4"];
-                    $dice["d6"]["numRolls"] = $_POST["d6"];
-                    $dice["d8"]["numRolls"] = $_POST["d8"];
-                    $dice["d10"]["numRolls"] = $_POST["d10"];
-                    $dice["d12"]["numRolls"] = $_POST["d12"];
-                    $dice["d20"]["numRolls"] = $_POST["d20"];
-                    
-                    showRolls();
-            }
             
             function showDice(){    //show img of each dice
                 global $dice;
