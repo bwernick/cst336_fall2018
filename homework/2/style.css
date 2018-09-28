@@ -1,0 +1,67 @@
+h1{
+    font-size: 48px;
+}
+
+h2{
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+    width: 100%;
+}
+
+.diceImg{
+    margin: auto;
+    display: block;
+    padding:10px;
+    width:70%;
+}
+
+#formDiv{
+    display: block;
+     margin: auto;
+     width:70%;
+}
+
+.single{
+    width: 200px;
+    padding-right: 5px;
+}
+
+#multiple{
+    width: 400px;
+    display:block;
+    margin:auto;
+}
+
+#pageTop{
+    text-align: center;
+}
+
+.rollCell{
+    display: table-cell;
+	padding: 5px;
+	width: 10%;
+	border-left: 2px solid black;
+}
+
+.rollImg{
+    width:20%;
+}
+
+.rollRow{
+    display: table-row;
+    border:2px solid black;
+}
+
+.rollTable{
+   	display: table;
+	width: 100%;
+	border: 2px solid black;
+}
+
+.return{
+    text-align: center;
+    font-size: 30px;
+}
