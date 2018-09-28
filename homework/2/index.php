@@ -6,6 +6,8 @@
     </head>
     <body>
         <?php
+            //Created by Bradley Wernick
+        
             //associative array of all dice
             $dice = array("d4" => array("numRolls" => 0, "maxValue" => 4), "d6" => array("numRolls" => 0, "maxValue" => 6), "d8" => array("numRolls" => 0, "maxValue" => 8), 
                           "d10" => array("numRolls" => 0, "maxValue" => 10), "d12" => array("numRolls" => 0, "maxValue" => 12), "d20" => array("numRolls" => 0, "maxValue" => 20));
