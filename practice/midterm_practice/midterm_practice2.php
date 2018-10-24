@@ -59,7 +59,7 @@ $s_counties = $statement->fetchAll();
             echo "<h4>All cities/towns that have a population between 50,000 and 80,000</h4><br>";
             foreach ($between_pop as $item){
                 print($item['town_name']);
-                echo " ";
+                echo "\t";
                 print($item['population']);
                 echo "<br>";
             }
