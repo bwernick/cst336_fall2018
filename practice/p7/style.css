@@ -1,0 +1,21 @@
+body{
+    width:100%;
+    font-size: 1.5em;
+}
+#quoteForm{
+  width: 50%;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+.header{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.quotes{
+   width:50%;
+   margin:auto;
+   word-wrap: break-word;
+   text-align: left;
+}
