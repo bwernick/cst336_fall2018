@@ -1,3 +1,19 @@
+<?php
+session_start(); 
+
+include 'database.php';
+include 'functions.php';
+
+checkLoggedIn(); 
+
+
+
+if (isset($_POST['line1']) && isset($_POST['line2'])) {
+  $memeObj = createMeme($_POST['line1'], $_POST['line2'], $_POST['meme-type']); 
+}
+
+?>
+
 
 <!DOCTYPE html>
 <html>
@@ -25,7 +41,12 @@
         <input type="submit"></input>
     </form>
     
-    
+    <?php
+      if($memeObj){
+        echo "<br><h1>Your Meme</h1><br>";
+        displayMemes(array($memeObj));
+      }
+    ?>
     
   </body>
 </html>
