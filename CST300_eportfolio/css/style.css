@@ -1,0 +1,125 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+/*I like this font*/
+body{
+  font-family: "Merriweather", serif;
+  width:100%;
+  margin:auto;
+}
+
+.introduction{
+  text-align:center;
+  margin: 0 auto;
+  margin-left: 200;
+  margin-right: 200;
+}
+
+/*Rounded corners look better than non-rounded corners*/
+#bragtbl{    
+    border-radius: 25px;
+    border: 2px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+/*Turns out landscaper images mande to be a circle without messing up aspect ratio is difficult.*/
+.circle {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circle img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+#tblDiv{
+  padding-top: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+/*Fancy looking buttons*/
+.button {
+  background-color: clear;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  color: white;
+  padding: 15px 32px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*To achieve that smooth looking scolling backgrounds*/
+.parallax { 
+  background-image: url("https://www.zionponderosa.com/wp-content/uploads/2016/07/Zion-Starry-Sky.jpg");
+  /*Image credit https://www.zionponderosa.com/blog/2017/06/celebrating-the-night-sky-in-bryce-and-zion/*/
+  min-height: 1000px; 
+
+  color: white;
+
+  /*Settings to cause scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Fancy Hover over image code*/
+.hoverText {
+  transition: .7s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*Fade out image*/
+.circle:hover img{
+  opacity: 0.8;
+}
+
+/*Fade in text*/
+.circle:hover .hoverText {
+  opacity: 1;
+}

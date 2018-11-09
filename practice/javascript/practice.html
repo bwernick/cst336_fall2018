@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+       <script>
+            //anonymous function 
+           (function rightNow(text){
+               console.log("Print this!", text);
+           })("Or that!");
+           
+           rightNow("?"); //Doesn't know what rightNow is
+           
+           //callbacks
+           function add(n1, n2, cb){
+               cb(n1 + n2);
+           }
+           
+           add(1, 1, function(result){
+               
+           });
+           
+       </script> 
+    </body>
+</html>
