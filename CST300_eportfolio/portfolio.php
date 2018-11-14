@@ -14,11 +14,18 @@
       <font size=24px>Portfolio</font>
       
       <div style="height:200px"></div>
+      
+      <!--Resume goes here-->
+      
+      
+      <!--Projects-->
       Most Recent Projects
       <div style="height:50px"></div>
       
       <table id="bragtbl" cellspacing="50%" class="center" style="width:50%; background-color: white; color:black; text-align:center; font-size:22px;">
         <tr>
+          <!--Add CST336 github project links here-->
+          <!--Need to have some clever images for the projects-->
           <td><a href="https://github.com/bwernick/MoodsAndMirrors"><img src="mmlogo.png" style="width:300px;height:300px;"></a></td>
         </tr>
         <tr>

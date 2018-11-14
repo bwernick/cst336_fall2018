@@ -1,0 +1,19 @@
+
+#gameWindow{
+	overflow:hidden;
+	position: relative;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px silver solid;
+}
+		
+#sky, #mountains, #trees, #mouse{
+	position: absolute;
+}
+
+#sky{ z-index: 1; }
+#mountains{ z-index: 2; }
+#trees{ z-index: 3; }
+#mouse{ z-index: 4; }
+
